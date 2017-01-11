@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Chrome Extension Test",
+    "description": "This is test for chrome extension.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.nicovideo.jp/watch/*"
+            ],
+            "css":["css/style.css"],
+            "js": ["scripts/script.js"]
+        }
+    ],
+    "permissions": [
+    ]
+}
